@@ -5,10 +5,10 @@ const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <header className='bg-white'>
+    <header className='bg-white sticky top-0 z-50 shadow-sm'>
       {/* DESKTOP | NAVIGATION BAR */}
       <nav
-        className='mx-auto flex items-center justify-between p-6 lg:px-8'
+        className='mx-auto flex items-center justify-between p-4 lg:px-8'
         aria-label='Global Navigation Bar'
       >
         {/* DESKTOP | SITE LOGO */}
@@ -49,19 +49,19 @@ const Header = () => {
         {/* NAVIGATION LINKS */}
         <div className='hidden lg:flex lg:gap-x-16 lg:px-12'>
           <a
-            href='/about'
+            href='#about'
             className='text-lg font-semibold text-gray-900 hover:underline'
           >
             ABOUT
           </a>
           <a
-            href='/projects'
+            href='#projects'
             className='text-lg font-semibold  text-gray-900 hover:underline'
           >
             PROJECTS
           </a>
           <a
-            href='contacts'
+            href='#contact'
             className='text-lg font-semibold text-gray-900 hover:underline'
           >
             CONTACT
@@ -117,22 +117,22 @@ const Header = () => {
             <div className='-my-6 divide-y divide-gray-500/10'>
               <div className='space-y-2 py-6'>
                 <a
-                  href='/about'
+                  href='#about'
                   className='-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50'
                 >
-                  About
+                  ABOUT
                 </a>
                 <a
-                  href='/projects'
+                  href='#projects'
                   className='-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50'
                 >
-                  Projects
+                  PROJECTS
                 </a>
                 <a
-                  href='/contact'
+                  href='#contact'
                   className='-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50'
                 >
-                  Contact
+                  CONTACT
                 </a>
               </div>
             </div>
