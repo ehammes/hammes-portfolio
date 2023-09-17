@@ -5,16 +5,19 @@ const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <header className='bg-white sticky top-0 z-50 shadow-sm'>
+
+    // HEADER
+    <header className='sticky top-0 z-50 bg-white shadow-sm'>
+
       {/* DESKTOP | NAVIGATION BAR */}
       <nav
-        className='mx-auto flex items-center justify-between p-4 lg:px-8'
+        className='flex items-center justify-between p-4 px-8 mx-auto'
         aria-label='Global Navigation Bar'
       >
         {/* DESKTOP | SITE LOGO */}
-        <div className='flex lg:flex-1'>
+        <div className='flex md:flex-1'>
           <a href='/' className='-m-1.0 p-1.0'>
-            <span className='sr-only'>Elizabeth Hammes</span>
+            <span className='sr-only'>Elizabeth Hammes Portfolio</span>
             <img
               className='w-auto h-20'
               src={eh_logo}
@@ -23,7 +26,7 @@ const Header = () => {
           </a>
         </div>
         {/* HAMBURGER MENU ICON */}
-        <div className='flex lg:hidden'>
+        <div className='flex md:hidden'>
           <button
             type='button'
             className='-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700'
@@ -46,8 +49,9 @@ const Header = () => {
             </svg>
           </button>
         </div>
+        
         {/* NAVIGATION LINKS */}
-        <div className='hidden lg:flex lg:gap-x-16 lg:px-12'>
+        <div className='hidden md:flex md:gap-x-16 md:px-12'>
           <a
             href='#about'
             className='text-lg font-semibold text-gray-900 hover:underline'
@@ -56,7 +60,7 @@ const Header = () => {
           </a>
           <a
             href='#projects'
-            className='text-lg font-semibold  text-gray-900 hover:underline'
+            className='text-lg font-semibold text-gray-900 hover:underline'
           >
             PROJECTS
           </a>
@@ -72,13 +76,14 @@ const Header = () => {
       {/* MOBILE MENU */}
       <dialog
         as='div'
-        className='lg:hidden'
+        className='md:hidden'
         open={menuOpen}
         onClose={setMenuOpen}
       >
         <div className='fixed inset-0 z-10' />
-        <div className='fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10'>
+        <div className='fixed inset-y-0 right-0 z-10 w-full p-6 overflow-y-auto bg-white md:max-w-sm md:ring-1 md:ring-gray-900/10'>
           <div className='flex items-center justify-between'>
+
             {/* SITE LOGO */}
             <button href='/' className='-m-1.0 p-1.0'>
               <span className='sr-only'>Elizabeth Hammes</span>
@@ -88,6 +93,7 @@ const Header = () => {
                 alt='Elizabeth Hammes Logo'
               />
             </button>
+
             {/* CLOSE MOBILE MENU BUTTON */}
             <button
               type='button'
@@ -95,6 +101,7 @@ const Header = () => {
               onClick={() => setMenuOpen(false)}
             >
               <span className='sr-only'>Close menu</span>
+              
               {/* CLOSE ICON */}
               <svg
                 xmlns='http://www.w3.org/2000/svg'
@@ -112,25 +119,29 @@ const Header = () => {
               </svg>
             </button>
           </div>
+          
           {/* MOBILE MENU | NAVIGATION LINKS */}
-          <div className='mt-6 flow-root'>
+          <div className='flow-root mt-6'>
             <div className='-my-6 divide-y divide-gray-500/10'>
-              <div className='space-y-2 py-6'>
+              <div className='py-6 space-y-2'>
                 <a
                   href='#about'
-                  className='-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50'
+                  className='block px-3 py-2 -mx-3 text-base font-semibold leading-7 text-gray-900 rounded-lg hover:bg-gray-50'
+                  onClick={() => setMenuOpen(false)}
                 >
                   ABOUT
                 </a>
                 <a
                   href='#projects'
-                  className='-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50'
+                  className='block px-3 py-2 -mx-3 text-base font-semibold leading-7 text-gray-900 rounded-lg hover:bg-gray-50'
+                  onClick={() => setMenuOpen(false)}
                 >
                   PROJECTS
                 </a>
                 <a
                   href='#contact'
-                  className='-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50'
+                  className='block px-3 py-2 -mx-3 text-base font-semibold leading-7 text-gray-900 rounded-lg hover:bg-gray-50'
+                  onClick={() => setMenuOpen(false)}
                 >
                   CONTACT
                 </a>
