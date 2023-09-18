@@ -12,26 +12,25 @@ const Hero = () => {
     2000,
   ];
 
-  const imageUrl = './img/woman_computer.svg';
+  // const imageUrl = './img/woman_computer.svg';
+  const imageUrl = './img/myProfile.jpeg';
 
   return (
-    
     // LANDING SECTION
-    <div className='flex px-5 py-36'>
-
+    <div className='flex pt-12 pb-28'>
       {/* NAME | ABOUT | CTA */}
-      <div className='pl-5 my-auto md:px-20'>
-        <h1 className='text-4xl font-bold tracking-tight text-gray-900 md:text-6xl'>
+      <div className='w-2/3 p-5 pt-0 md:pl-12 md:py-16 md:pr-5 lg:pl-48 lg:py-16 lg:pr-5'>
+        <h1 className='text-base font-bold tracking-tight text-gray-900 md:text-4xl lg:text-6xl'>
           Hi, I'm Elizabeth
         </h1>
-        <div className='flex items-center pt-2 space-x-2 text-sm leading-10 text-gray-700 md:text-2xl w-72 md:w-full'>
+        <div className='flex items-center pt-2 space-x-1 text-xs text-gray-700 md:text-2xl'>
           <svg
             xmlns='http://www.w3.org/2000/svg'
             fill='none'
             viewBox='0 0 24 24'
             strokeWidth='1.5'
             stroke='currentColor'
-            className='w-6 h-6'
+            className='w-3 h-3 md:w-6 md:h-6'
           >
             <path
               strokeLinecap='round'
@@ -52,28 +51,28 @@ const Hero = () => {
         </div>
 
         {/* HERO NAV BUTTONS */}
-        <div className='flex items-center justify-start mt-10 gap-x-6'>
+        <div className='flex items-center justify-start mt-10 gap-x-4'>
           <a
             href='#about'
-            className='rounded-md bg-blue-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-blue-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600 md:text-md'
+            className='rounded-md bg-blue-600 lg:px-3.5 lg:py-2.5 p-2.5 text-sm md:px-2.5 md:py-2.5 lg:text-base md:text-base text-white font-semibold shadow-sm hover:bg-blue-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600'
           >
             About Me
           </a>
           <a
             href='#contact'
-            className='font-semibold leading-6 text-gray-900 text-md hover:underline'
+            className='text-xs font-semibold leading-6 text-gray-900 md:text-base hover:underline'
           >
             Contact→
           </a>
         </div>
       </div>
-      
-      {/* HERO IMAGE */}
-      <div className='px-5 mx-auto'>
+
+      {/* PROFILE IMAGE */}
+      <div className='flex justify-start w-1/3'>
         <img
           src={imageUrl}
           alt='profile'
-          className='w-auto h-48 md:h-96 md:w-auto'
+          className='rounded-full h-36 sm:h-48 md:h-60 lg:h-80'
         />
       </div>
     </div>
