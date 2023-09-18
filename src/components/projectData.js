@@ -67,7 +67,8 @@ const projectData = [
       'JAVASCRIPT, ',
       'REACT, ',
       'TAILWINDCSS, ',
-      'EMAILJS',
+      'EMAILJS, ',
+      'NETLIFY'
     ],
     siteUrl: 'https://www.elizabethhammes.com',
     gitHubUrl: 'https://github.com/ehammes/hammes-portfolio',
