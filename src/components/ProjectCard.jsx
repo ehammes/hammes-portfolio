@@ -42,7 +42,7 @@ const ProjectCard = () => {
             <CardFooter className='mx-auto my-auto'>
               <ButtonGroup className='items-center space-x-6 lg:space-x-24 md:space-x-12'>
                 <a
-                  className='rounded-md bg-blue-600 lg:px-3.5 lg:py-2.5 p-2.5 text-sm md:px-2.5 md:py-2.5 lg:text-base md:text-base font-semibold text-white shadow-sm hover:bg-blue-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600'
+                  className='rounded-md bg-blue-600 lg:px-3.5 lg:py-2.5 p-2.5 text-xs md:px-2.5 md:py-2.5 md:text-base font-semibold text-white shadow-sm hover:bg-blue-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600'
                   href={project.siteUrl}
                   target='_blank'
                   rel='noreferrer'
@@ -51,7 +51,7 @@ const ProjectCard = () => {
                 </a>
                 <a
                   variant='ghost'
-                  className='text-sm font-semibold leading-6 text-gray-900 md:text-base hover:underline'
+                  className='text-xs font-semibold leading-6 text-gray-900 md:text-base hover:underline'
                   href={project.gitHubUrl}
                   target='_blank'
                   rel='noreferrer'
