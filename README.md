@@ -12,6 +12,7 @@ Portfolio Site highlighting my experience and project work
 - TailwindCSS
 - EmailJS
 - Netlify
+- Vite
 
 ### Tasks
 

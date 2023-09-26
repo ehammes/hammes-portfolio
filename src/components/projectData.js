@@ -30,7 +30,7 @@ const projectData = [
       'REACT, ',
       'TAILWINDCSS, ',
       'EMAILJS, ',
-      'VITE',
+      'VITE, ',
       'NETLIFY',
     ],
     siteUrl: 'https://www.elizabethhammes.com',
