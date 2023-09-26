@@ -21,20 +21,20 @@ const projectData = [
   },
   {
     id: 2,
-    title: 'GLOSSARY OF TERMS',
-    imageUrl: 'https://i.imgur.com/Ddbczd3.png',
+    title: 'EH PORTFOLIO',
+    imageUrl: './img/portfolio.png',
     description:
-      'Students at Code Fellows needed a better way to organize and review all terms learned throughout Code Fellow courses.',
+      'A responsive personal portfolio site showcasing about me, my skills, projects, and contact info.',
     tech: [
+      'JAVASCRIPT, ',
       'REACT, ',
-      'NODE.JS, ',
-      'EXPRESS, ',
-      'MONGODB, ',
-      'AUTH0, ',
-      'JSPELL API',
+      'TAILWINDCSS, ',
+      'EMAILJS, ',
+      'VITE',
+      'NETLIFY',
     ],
-    siteUrl: 'https://code-fellows-glossary.netlify.app',
-    gitHubUrl: 'https://github.com/ehammes/coding-glossary-frontend',
+    siteUrl: 'https://www.elizabethhammes.com',
+    gitHubUrl: 'https://github.com/ehammes/hammes-portfolio',
   },
   {
     id: 3,
@@ -59,19 +59,20 @@ const projectData = [
   },
   {
     id: 4,
-    title: 'EH PORTFOLIO',
-    imageUrl: './img/portfolio.png',
+    title: 'GLOSSARY OF TERMS',
+    imageUrl: 'https://i.imgur.com/Ddbczd3.png',
     description:
-      'A responsive personal portfolio site showcasing about me, my skills, projects, and contact info.',
+      'Students at Code Fellows needed a better way to organize and review all terms learned throughout Code Fellow courses.',
     tech: [
-      'JAVASCRIPT, ',
       'REACT, ',
-      'TAILWINDCSS, ',
-      'EMAILJS, ',
-      'NETLIFY'
+      'NODE.JS, ',
+      'EXPRESS, ',
+      'MONGODB, ',
+      'AUTH0, ',
+      'JSPELL API',
     ],
-    siteUrl: 'https://www.elizabethhammes.com',
-    gitHubUrl: 'https://github.com/ehammes/hammes-portfolio',
+    siteUrl: 'https://code-fellows-glossary.netlify.app',
+    gitHubUrl: 'https://github.com/ehammes/coding-glossary-frontend',
   },
 ];
 
