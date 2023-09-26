@@ -19,7 +19,7 @@ const Hero = () => {
     // LANDING SECTION
     <div className='flex pt-12 pb-28'>
       {/* NAME | ABOUT | CTA */}
-      <div className='w-2/3 p-5 pt-0 md:pl-12 md:py-16 md:pr-5 lg:pl-48 lg:py-16 lg:pr-5'>
+      <div className='w-1/2 p-5 pt-0 md:pl-12 md:py-16 md:pr-5 lg:pl-48 lg:py-16 lg:pr-5'>
         <h1 className='text-base font-bold tracking-tight text-gray-900 md:text-4xl lg:text-6xl'>
           Hi, I'm Elizabeth
         </h1>
@@ -54,7 +54,7 @@ const Hero = () => {
         <div className='flex items-center justify-start mt-10 gap-x-4'>
           <a
             href='#about'
-            className='rounded-md bg-blue-600 lg:px-3.5 lg:py-2.5 p-2.5 text-sm md:px-2.5 md:py-2.5 lg:text-base md:text-base text-white font-semibold shadow-sm hover:bg-blue-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600'
+            className='rounded-md bg-blue-600 lg:px-3.5 lg:py-2.5 p-2.5 text-xs md:px-2.5 md:py-2.5 md:text-base text-white font-semibold shadow-sm hover:bg-blue-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600'
           >
             About Me
           </a>
@@ -68,11 +68,11 @@ const Hero = () => {
       </div>
 
       {/* PROFILE IMAGE */}
-      <div className='flex justify-start w-1/3'>
+      <div className='flex justify-center w-1/2'>
         <img
           src={imageUrl}
           alt='profile'
-          className='rounded-full h-36 sm:h-48 md:h-60 lg:h-80'
+          className='rounded-full h-28 md:h-52 lg:h-96'
         />
       </div>
     </div>
