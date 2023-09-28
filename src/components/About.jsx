@@ -49,6 +49,7 @@ const About = () => {
             <div>
               <div className='pt-4'>
                 <div className='font-semibold'>Current Focus:</div>
+                <div>Hacktoberfest, open-source contributions</div>
                 Shopify Liquid, Shopify APIs, and Theme Customization
               </div>
             </div>
