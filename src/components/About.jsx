@@ -23,7 +23,7 @@ const About = () => {
           <div className='text-xs md:text-base'>
             <div>
               <div className='py-2 font-semibold text-center'>
-                Software Developer, former Product Owner
+                Software Developer, experienced Product Owner
               </div>
             </div>
             <div>
@@ -49,8 +49,7 @@ const About = () => {
             <div>
               <div className='pt-4'>
                 <div className='font-semibold'>Current Focus:</div>
-                <div>Hacktoberfest, open-source contributions</div>
-                Shopify Liquid, Shopify APIs, and Theme Customization
+                <div>React, NextJS, APIs</div>
               </div>
             </div>
           </div>
