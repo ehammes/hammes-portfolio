@@ -4,7 +4,7 @@ const Hero = () => {
   const aboutMe = [
     'I am a Software Developer',
     1000,
-    'I am a former Product Owner',
+    'I am an experienced Product Owner',
     2000,
     'I am an avid Frontend Developer',
     2000,
