@@ -4,22 +4,17 @@ const Hero = () => {
   const aboutMe = [
     'I am a Software Developer',
     1000,
-    'I am an experienced Product Owner',
-    2000,
-    'I am an avid Frontend Developer',
-    2000,
-    'I am an avid traveler',
+    'I am an experienced Product Owner / Business Analyst',
     2000,
   ];
 
-  // const imageUrl = './img/woman_computer.svg';
   const imageUrl = './img/myProfile.jpeg';
 
   return (
     // LANDING SECTION
     <div className='flex pt-12 pb-28'>
       {/* NAME | ABOUT | CTA */}
-      <div className='w-1/2 p-5 pt-0 md:pl-12 md:py-16 md:pr-5 lg:pl-48 lg:py-16 lg:pr-5'>
+      <div className='w-1/2 p-5 pt-0 md:pl-12 md:py-16 lg:pl-28 lg:py-16'>
         <h1 className='text-base font-bold tracking-tight text-gray-900 md:text-4xl lg:text-6xl'>
           Hi, I'm Elizabeth
         </h1>
